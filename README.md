@@ -1,6 +1,6 @@
 # Mask R-CNN for Object Detection and Segmentation using TensorFlow 2.10.0 (and TensorFlow-MacOS)
 
-The [Mask-RCNN-TF2-10](https://github.com/ligerlac/Mask-RCNN-TF2) project edits the
+The [Mask-RCNN-TF2-10](https://github.com/ligerlac/Mask-RCNN-TF2-10) project edits the
 [Mask-RCNN-TF2](https://github.com/ahmedfgad/Mask-RCNN-TF2) project, which only supports
 TensorFlow 2.0 (not supported for Apple M1), so that it works on TensorFlow 2.10 (supported
 for Apple M1). The latter project edits the original
@@ -11,12 +11,12 @@ and segmentation masks for each instance of an object in the image. It's based o
 Network (FPN) and a ResNet101 backbone.
 
 Compared to the source code of the old [Mask_RCNN-TF2](https://github.com/ahmedfgad/Mask_RCNN)
-project, the [Mask-RCNN-TF2-10](https://github.com/ligerlac/Mask-RCNN-TF2) project edits the
+project, the [Mask-RCNN-TF2-10](https://github.com/ligerlac/Mask-RCNN-TF2-10) project edits the
 following modules:
 
 1. `model.py`
 
-This fork of the [Mask-RCNN-TF2-10](https://github.com/ligerlac/Mask-RCNN-TF2) project is tested
+This fork of the [Mask-RCNN-TF2-10](https://github.com/ligerlac/Mask-RCNN-TF2-10) project is tested
 against **TensorFlow (MacOS) 2.10.0**, **Keras 2.10.0**, and **Python 3.9.10**. Note that
 the project will not run in TensorFlow 1.0 or TensorFlow 2.0.
 
